@@ -5,5 +5,5 @@ const {getuserSidebar} =require('../controllers/userController.js')
 
 
 
-router.get('/',protectRoute,getuserSidebar)
+router.get('/users',protectRoute,getuserSidebar)
 module.exports=router;
